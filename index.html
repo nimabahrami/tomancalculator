@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body class="body">
+        <head>
+                <title>Rial calculator</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="style.css">
+                
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        </head>
+        <div class="container">
+            <button onClick="window.location.reload();" class="hidden">🔄</button>
+            <div class="container" id="card_bg">
+                <div id="heading">
+                    <h1 class="monospace">
+                        Convert Rial to USD
+                    </h1>
+                </div>
+                <div id="input_action">
+                    <p class="monospace">
+                        Enter the value:
+                    </p>
+                    
+                </div>
+                <div class="container" id="text-holder">
+                        <p id="element"><input type="text" id="text_area"></p>
+                </div>  
+                <div class="container" id="button_div">
+                        <button type="button" id="button" onclick="pooper()">Convert!</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <script src="script.js"></script>
+    </body>
+</html>
