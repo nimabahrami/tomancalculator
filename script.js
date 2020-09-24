@@ -10,7 +10,7 @@ function pooper(){
     var index
     var paragraph
     var text_string = "";
-    for(index=0;index<Math.ceil(x/20000);index++){
+    for(index=0;index<Math.ceil(x/28850);index++){
         text_string="💩";
         paragraph = document.createElement('p');
         document.getElementsByClassName('new-rect')[0].appendChild(paragraph);
