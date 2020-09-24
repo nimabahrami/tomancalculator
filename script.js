@@ -38,7 +38,7 @@ function pooper(){
     $(".result-card").css('height',window.innerHeight/5)
     $(".result-card").css('text-align',"center")
     var paragraph_res;
-    var result_final=Math.ceil(x/20000)
+    var result_final=Math.ceil(x/28850)
     paragraph_res = document.createElement('p');
     document.getElementsByClassName('result-card')[0].appendChild(paragraph_res);
     paragraph_res.className="result-text";
